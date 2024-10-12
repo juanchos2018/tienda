@@ -46,6 +46,11 @@ class BlogController extends Controller
         return view('blog::show');
     }
 
+    public function alllll($id)
+    {
+        return view('blog::show');
+    }
+
     /**
      * Show the form for editing the specified resource.
      * @param int $id
